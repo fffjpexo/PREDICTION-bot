@@ -2,6 +2,9 @@ import os
 import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
+import os
+TOKEN = os.getenv("BOT_TOKEN")
+print("TOKEN:", TOKEN)  # temporary debug
 
 TOKEN = os.getenv("8575076584:AAHTcIWv-tWLN5HDtWnGaq6rPu1lOirBHPk")
 
